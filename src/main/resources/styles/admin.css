@@ -1,0 +1,53 @@
+/* admin.css */
+
+/* Dashboard Layout */
+.admin-dashboard {
+    display: flex;
+}
+
+.admin-sidebar {
+    width: 250px;
+    background-color: #343a40;
+    color: #fff;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.admin-sidebar a {
+    display: block;
+    color: #ccc;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.admin-sidebar a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.admin-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.admin-content h1 {
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f8f9fa;
+}
